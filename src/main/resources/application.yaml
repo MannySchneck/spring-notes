@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        channelA:
+          destination: channelA
+          group: bar
+        channelB:
+          destination: channelB
+          group: bar
+
+        ochannelA:
+          destination: channelA
+          group: bar
+        ochannelB:
+          destination: channelB
+          group: bar
